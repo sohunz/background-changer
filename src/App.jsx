@@ -17,21 +17,21 @@ const App = () => {
             className="relative w-full h-screen flex justify-center items-end duration-200"
             style={{ backgroundColor: color }}
         >
-            <div className="absolute bg-gray-200 flex gap-3 p-3 rounded-full outline-none bottom-20">
+            <div className="absolute bg-gray-700 flex gap-3 p-3 rounded-full outline-none bottom-20">
                 <p
-                    className="py-2 px-5 rounded-full bg-blue-600 outline-none cursor-pointer"
+                    className="py-2 px-5 rounded-full bg-blue-600 outline-none cursor-pointer text-white"
                     onClick={() => changeColor("blue")}
                 >
                     Blue
                 </p>
                 <p
-                    className="py-2 px-5 rounded-full bg-red-600 outline-none cursor-pointer"
+                    className="py-2 px-5 rounded-full bg-red-600 outline-none cursor-pointer text-white"
                     onClick={() => changeColor("red")}
                 >
                     Red
                 </p>
                 <p
-                    className="py-2 px-5 rounded-full bg-green-600 outline-none cursor-pointer"
+                    className="py-2 px-5 rounded-full bg-green-600 outline-none cursor-pointer text-white"
                     onClick={() => changeColor("green")}
                 >
                     Green
